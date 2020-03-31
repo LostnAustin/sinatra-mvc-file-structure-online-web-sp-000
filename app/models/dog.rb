@@ -10,13 +10,7 @@ class Dog
 @@all << self
 # binding.pry
   end
-  # @name = self.name
-  # @breed = self.breed
-  # @age = self.age
-  # self.create(name, breed, age)
-#  binding.pry
-# dog = Dog.new(name, breed, age)
-# dog.save
+
 
   def self.save
     @@all << self
